@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+  
+</head>
+<body>
+    <div class="container" id="root" style="padding-top:30px">
+        <modal v-if="isOpen" @close="isOpen = false"></modal>
+        <button @click="isOpen = true" >Modal do Beto</button>
+
+    </div>
+
+
+
+
+
+
+    <script src="https://unpkg.com/vue@2.5.13/dist/vue.js"></script>
+    <script src="modal.js"></script>
+  
+</body>
+</html>
